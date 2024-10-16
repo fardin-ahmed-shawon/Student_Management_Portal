@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #E3E9F8;
+}
+.col-mid-6 {
+    width: 50%;
+    float: left;
+}
+
+/* Card Styling */
+.card {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin: 10px;
+    overflow: hidden;
+}
+.card-body {
+    padding: 1.25rem;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+}
+.table th {
+    text-align: left;
+}
+.table td,
+.table th {
+    padding: 15px;
+    border-top: 1px solid #dee2e6;
+}
+
+i {
+    padding-right: 10px;
+}
+
+/**********************/
+/* START NAV SECTION */
+/********************/
+nav {
+    width: 100%;
+    height: 80px;
+    padding:  30px 100px;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    float: left;
+}
+
+.profile-header {
+    width: 50%;
+    float: left;
+    text-align: right;
+    align-items: center;
+}
+.menu-btn{
+    width: 50%;
+    float: left;
+    text-align: right;
+    align-items: center;
+    display: none;
+}
+.menu-btn i, .hide-btn {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Profile Header */
+.logo img {
+    width: 200px;
+}
+
+.profile-photo {
+    display: inline-block;
+    margin-right: 20px;
+}
+.profile-photo img {
+    cursor: pointer;
+    width: 43px;
+}
+
+.profile-info {
+    display: inline-block;
+}
+
+.profile-info p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Responsive */
+@media only screen and (max-width: 940px) {
+    nav {
+        padding:  30px 30px;
+    }
+}
+@media only screen and (max-width: 570px) {
+    nav {
+        padding:  30px 20px;
+    }
+}
+/********************/
+/* END NAV SECTION */
+/******************/
+
+
+
+
+/***********************/
+/* START HOME SECTION */
+/*********************/
+
+/* Start Layout */
+.left-area {
+    width: 13%;
+    float: left;
+}
+
+.right-area {
+    width: 87%;
+    float: left;
+}
+/* End Layout */
+
+/* Start Left area */
+.left-area {
+    background: #edf1fb;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 0px 6px -1px, rgba(0, 0, 0, 0.06) 0px 0px 4px -1px;
+}
+.left-area ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 20px 20px;
+}   
+.left-area ul li a:hover {
+    background: #d0d8e9;
+}
+.left-area ul .active {
+    background: #d0d8e9;
+}
+/* End Left area */
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding: 10px 30px;
+    border: 1px solid #dadada;
+}
+
+/* Home Responsive */
+@media only screen and (max-width: 1350px) {
+    .left-area {
+        height: 212vh;
+        width: 20%;
+        float: left;
+    }
+    .mid-area {
+        width: 80%;
+        float: left;
+    }
+    .right-area {
+        width: 80%;
+        float: left;
+    }
+}
+/***********************/
+/* END HOME SECTION */
+/*********************/
+
+
+
+
+/**************************/
+/* Start MOBILE MENU BAR */
+/************************/
+.menu-container {
+    background: #edf1fb;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 0px 6px -1px, rgba(0, 0, 0, 0.06) 0px 0px 4px -1px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    overflow-y: auto;
+    z-index: 999;
+    width: 0;
+    /* transition: 0.5s ease; */
+}
+.hide-btn {
+    margin: 10px 20px;
+    text-align: right;
+}
+.profile-header2 {
+    margin: 10px 20px;
+}
+.profile-header2 .profile-info {
+    margin-top: 10px;
+}
+.menu-container ul li {
+    list-style-type: none;
+}
+.menu-container ul li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 20px 20px;
+}
+.menu-container ul li a:hover {
+    text-decoration: none;
+    background: #d0d8e9;
+}
+.menu-container ul li a:active {
+    background: #d0d8e9;
+}
+
+/* Responsive Mobile Menu */
+@media only screen and (max-width: 940px) {
+    .home .left-area {
+        display: none;
+    }
+    .mid-area {
+        width: 100%;
+        float: left;
+    }
+    .right-area {
+        width: 100%;
+        float: left;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .profile-header {
+        display: none;
+    }
+    .profile-photo {
+        display: block;
+    }
+}
+/************************/
+/* End MOBILE MENU BAR */
+/**********************/
+
+
+
+/* Fix Screen Sizing Issues for very low width devices */
+@media only screen and (max-width: 450px) {
+    .logo img {
+        width: 170px;
+    }
+    table td , th{
+        font-size: 13px;
+    }
+    footer {
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .logo img {
+        width: 150px;
+    }
+    .menu-btn i  {
+        font-size: 25px;
+    }
+    .student-dp {
+        width: 50%;
+    }
+    select {
+        width: 100%;
+        padding: 0;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 250px) {
+    .logo img {
+        width: 120px;
+    }
+    .menu-btn i {
+        font-size: 20px;
+    }
+    #course-row {
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+    #course-row h3 {
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .logo img {
+        width: 90px;
+    }
+    .menu-btn i {
+        font-size: 15px;
+    }
+}

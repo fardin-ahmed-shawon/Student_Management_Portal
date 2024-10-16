@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangladesh University</title>
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--CSS-->
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="academics.css">
+</head>
+<body>
+    
+<!-- START NAVBAR AREA -->
+<nav>
+    <div class="logo"><img src="logo2.png" alt="BU"></div>
+    <div class="profile-header" id="profileHeader">
+        <div class="profile-photo">
+            <img src="blue-profile.png" alt="MAN">
+        </div>
+        <div class="profile-info">
+            <p>Fardin Ahmed Shawon</p>
+            <p>202231064039</p>
+        </div>
+    </div>
+    <div class="menu-btn" id="openMenuBtn">
+        <i class="fas fa-bars"></i>
+    </div>
+</nav>
+<!-- END NAVBAR AREA -->
+
+
+<!-- START MOBILE MENU BAR -->
+<div class="menu-container" id="menubar">
+    <div class="hide-btn" id="hideMenuBtn">
+        <i class="fa-sharp fa-solid fa-xmark"></i>
+    </div>
+    <div class="profile-header2">
+        <div class="profile-photo">
+            <img src="blue-profile.png" alt="MAN">
+        </div>
+        <div class="profile-info">
+            <p>Fardin Ahmed Shawon</p>
+            <p>202231064039</p>
+        </div><br><br><hr>
+    </div>
+    <div class="nav-list">
+        <ul>
+            <li>
+                <a href="home.html">
+                    <i class="fa fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="profile.html">
+                    <i class="fa fa-user"></i>
+                    <span>Student Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="financial.html">
+                    <i class="fa fa-credit-card"></i>
+                    Financial Information
+                </a>
+            </li>
+            <li>
+                <a href="academics.html">
+                    <i class="fa fa-info-circle"></i>
+                    <span>Academic Information</span>
+                </a>
+            </li>
+            <li>
+                <a href="course.html">
+                    <i class="fa fa-book"></i>
+                    <span>Course Details</span>
+                </a>
+            </li>
+            <li>
+                <a href="admit.html">
+                    <i class="fa fa-address-card"></i>
+                    <span>Admit Card</span>
+                </a>
+            </li>
+            <li>
+                <a href="studentLogin.html">
+                    <i class="fa fa-sign-out"></i>
+                    <span>Sign Out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<!-- END MOBILE MENU BAR -->
+
+
+<!-- START HOME SECTION -->
+<div class="home">
+    <div class="wrapper">
+        <!-- LEFT AREA-->
+        <div class="left-area nav-list" id="left-menu">
+            <ul id="lists">
+                <li>
+                    <a href="home.html" class="nav-btn">
+                        <i class="fa fa-home"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html" class="nav-btn">
+                        <i class="fa fa-user"></i>
+                        <span>Student Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="financial.html" class="nav-btn">
+                        <i class="fa fa-credit-card"></i>
+                        <span>Financial Information</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="academics.html" class="nav-btn active">
+                        <i class="fa fa-info-circle"></i>
+                        <span>Academic Information</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="course.html" class="nav-btn">
+                        <i class="fa fa-book"></i>
+                        <span>Course Details</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="admit.html" class="nav-btn">
+                        <i class="fa fa-address-card"></i>
+                        <span>Admit Card</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="studentLogin.html" class="nav-btn">
+                        <i class="fa fa-sign-out"></i>
+                        <span>Sign Out</span>
+                    </a>
+                </li>
+            </ul>
+        </div>          
+        <div class="right-area">
+            <div class="card">
+                <div class="card-body">
+                    <h1>Course History</h1><br><hr><br>
+                    <div style="overflow-y: auto;">
+                        <table class="borderless-table">
+                            <tr>
+                                <td>Student ID</td>
+                                <td>:</td>
+                                <td>202231064039</td>
+                            </tr>
+                            <tr>
+                                <td>Student Name</td>
+                                <td>:</td>
+                                <td>Fardin Ahmed Shawon</td>
+                            </tr>
+                            <tr>
+                                <td>Department</td>
+                                <td>:</td>
+                                <td>Computer Science and Engineering</td>
+                            </tr>
+                            <tr>
+                                <td>Batch No</td>
+                                <td>:</td>
+                                <td>64</td>
+                            </tr>
+                            <tr>
+                                <td>Total Credit</td>
+                                <td>:</td>
+                                <td>89</td>
+                            </tr>
+                        </table>
+                    </div>
+
+                    <!-- Course Table -->
+                    <br><br>
+                     <h3>Fall-2022</h3>
+                     <div style="overflow-y: auto;" class="full-bordered-table">
+                        <table>
+                            <tr>
+                                <th>Course-Code</th>
+                                <th>Course-Title</th>
+                                <th>Credit</th>
+                                <th>Grade</th>
+                            </tr>
+                            <tr>
+                                <td>CSE-1101</td>
+                                <td>Introduction of Computer Science</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1102</td>
+                                <td>Analog Electronics</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1103</td>
+                                <td>Analog Electronics lab</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1104</td>
+                                <td>Math I (Differential Calculus & Co-ordinate Geom.)</td>
+                                <td>3</td>
+                                <td>A-</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1105</td>
+                                <td>English I</td>
+                                <td>3</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1106</td>
+                                <td>Business Organization</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                        </table>
+                     </div>
+
+                     <br><br>
+                     <h3>Spring-2023</h3>
+                     <div style="overflow-y: auto;" class="full-bordered-table">
+                        <table>
+                            <tr>
+                                <th>Course-Code</th>
+                                <th>Course-Title</th>
+                                <th>Credit</th>
+                                <th>Grade</th>
+                            </tr>
+                            <tr>
+                                <td>CSE-1101</td>
+                                <td>Introduction of Computer Science</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1102</td>
+                                <td>Analog Electronics</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1103</td>
+                                <td>Analog Electronics lab</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1104</td>
+                                <td>Math I (Differential Calculus & Co-ordinate Geom.)</td>
+                                <td>3</td>
+                                <td>A-</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1105</td>
+                                <td>English I</td>
+                                <td>3</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1106</td>
+                                <td>Business Organization</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                        </table>
+                     </div>
+
+                     <br><br>
+                     <h3>Summer-2023</h3>
+                     <div style="overflow-y: auto;" class="full-bordered-table">
+                        <table>
+                            <tr>
+                                <th>Course-Code</th>
+                                <th>Course-Title</th>
+                                <th>Credit</th>
+                                <th>Grade</th>
+                            </tr>
+                            <tr>
+                                <td>CSE-1101</td>
+                                <td>Introduction of Computer Science</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1102</td>
+                                <td>Analog Electronics</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1103</td>
+                                <td>Analog Electronics lab</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1104</td>
+                                <td>Math I (Differential Calculus & Co-ordinate Geom.)</td>
+                                <td>3</td>
+                                <td>A-</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1105</td>
+                                <td>English I</td>
+                                <td>3</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1106</td>
+                                <td>Business Organization</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                        </table>
+                     </div>
+
+                     <br><br>
+                     <h3>Fall-2023</h3>
+                     <div style="overflow-y: auto;" class="full-bordered-table">
+                        <table>
+                            <tr>
+                                <th>Course-Code</th>
+                                <th>Course-Title</th>
+                                <th>Credit</th>
+                                <th>Grade</th>
+                            </tr>
+                            <tr>
+                                <td>CSE-1101</td>
+                                <td>Introduction of Computer Science</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1102</td>
+                                <td>Analog Electronics</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1103</td>
+                                <td>Analog Electronics lab</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1104</td>
+                                <td>Math I (Differential Calculus & Co-ordinate Geom.)</td>
+                                <td>3</td>
+                                <td>A-</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1105</td>
+                                <td>English I</td>
+                                <td>3</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1106</td>
+                                <td>Business Organization</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                        </table>
+                     </div>
+
+                     <br><br>
+                     <h3>Spring-2024</h3>
+                     <div style="overflow-y: auto;" class="full-bordered-table">
+                        <table>
+                            <tr>
+                                <th>Course-Code</th>
+                                <th>Course-Title</th>
+                                <th>Credit</th>
+                                <th>Grade</th>
+                            </tr>
+                            <tr>
+                                <td>CSE-1101</td>
+                                <td>Introduction of Computer Science</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1102</td>
+                                <td>Analog Electronics</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1103</td>
+                                <td>Analog Electronics lab</td>
+                                <td>3</td>
+                                <td>A+</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1104</td>
+                                <td>Math I (Differential Calculus & Co-ordinate Geom.)</td>
+                                <td>3</td>
+                                <td>A-</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1105</td>
+                                <td>English I</td>
+                                <td>3</td>
+                                <td>A</td>
+                            </tr>
+                            <tr>
+                                <td>CSE-1106</td>
+                                <td>Business Organization</td>
+                                <td>3</td>
+                                <td>B+</td>
+                            </tr>
+                        </table>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END HOME SECTION -->
+<footer>Copyright © 2024 Fardin Ahmed Shawon. All Rights Reserved.</footer>
+
+<script src="main.js"></script>
+
+</body>
+</html>

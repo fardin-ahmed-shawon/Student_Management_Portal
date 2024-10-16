@@ -1,0 +1,31 @@
+.left-area {
+    height: 1500px;
+}   
+.table-size-changing {
+    width: 50%;
+} 
+.table-size-changing td {
+    padding: 10px;
+}
+.table th {
+    background: #E3E9F8;
+}
+.table-under-bordered tr:last-child td {
+    border-bottom: 1px solid #dee2e6;
+}
+.colored-background {
+    margin: -10px;
+    padding: 15px;
+    background: #E3E9F8;
+}
+
+@media only screen and (max-width: 1350px) {
+    .table-size-changing {
+        width: 80%;
+    } 
+}
+@media only screen and (max-width: 650px) {
+    .table-size-changing {
+        width: 100%;
+    } 
+}

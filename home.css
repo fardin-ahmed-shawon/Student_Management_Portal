@@ -1,0 +1,120 @@
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    margin: 0;
+    margin-top: 5px;
+    margin-left: 5px
+}
+
+/* Table Styling */
+.table td,th {
+    padding: 7.9px;
+    border-top: 1px solid #dee2e6;
+}
+table td:nth-child(3),table td:nth-child(5){
+    padding-left: 15px;
+}
+.decorated-table tr:nth-child(odd){
+    background-color: #f6f7fb;
+}
+.table-under-bordered tr:last-child td {
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Text Styling */
+.text-right {
+    text-align: right;
+}
+.text-center {
+    text-align: center;
+}
+.font-bold {
+    font-weight: bold;
+}
+
+/***********************/
+/* START HOME SECTION */
+/*********************/
+
+/* Start Layout */
+.wrapper {
+    height: 1200px;
+}
+.left-area {
+    width: 13%;
+    float: left;
+}
+.mid-area {
+    width: 67%;
+    float: left;
+}
+.right-area {
+    width: 20%;
+    float: left;
+}
+/* End Layout */
+
+.left-area {
+    height: 1200px;
+}
+
+.right-area a {
+    text-decoration: none;
+}
+.right-area a:active{
+    text-decoration: underline;
+}
+
+select {
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* Home Responsive */
+@media only screen and (max-width: 1350px) {
+    .left-area {
+        height: 220vh;
+        width: 20%;
+        float: left;
+    }
+    .mid-area {
+        width: 80%;
+        float: left;
+    }
+    .right-area {
+        width: 80%;
+        float: left;
+    }
+    .card {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/***********************/
+/* END HOME SECTION */
+/*********************
+
+/* Responsive */
+@media only screen and (max-width: 940px) {
+    .mid-area {
+        width: 100%;
+        float: left;
+    }
+    .right-area {
+        width: 100%;
+        float: left;
+    }
+}
+@media only screen and (max-width: 350px) {
+    h1 {
+        margin-bottom: 15px;
+    }
+    select {
+        width: 100%;
+        padding: 0;
+    }
+}    

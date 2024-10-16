@@ -1,0 +1,78 @@
+.card {
+    height: 700px;
+}
+.admit-area {
+    font-size: 22px;
+}
+.card span {
+    font-weight: 600;
+}
+select {
+    margin: 0 30px;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #c2c7d2;
+    outline: none;
+    background: #E3E9F8;
+}
+button:hover {
+    background: #bec8e1;
+}
+button a {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.left-area {
+    height: 800px;
+}
+
+.bottom-are {
+    display: flex;
+}
+
+.admit-card1 {
+    margin-right: 30px;
+}
+.admit-card2 input {
+    margin-bottom: 20px;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 645px) {
+    .search-area {
+        font-size: 18px;
+    }
+    select {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    button a {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 520px) {
+    select {
+        width: 100%;
+        display: block;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .bottom-are {
+        display: block;
+    }
+    .admit-card1 {
+        margin-bottom: 10px;
+    }
+    .admit-card2 button {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
